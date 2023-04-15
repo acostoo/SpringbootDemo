@@ -3,8 +3,6 @@ package ch.zhaw.springboot.demo;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-
-
 public class TDD {
     
     String character = "X";
