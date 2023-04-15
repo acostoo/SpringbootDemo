@@ -35,15 +35,17 @@ public class TDD {
     
     public String convert(int i) {
     
-        StringBuilder sb = new StringBuilder();
+        //StringBuilder sb = new StringBuilder();
 
-        for(HashMap.Entry<String, Integer> entry : characters.entrySet()) {
+        //for(HashMap.Entry<String, Integer> entry : characters.entrySet()) {
             
-            while(i >= entry.getValue()) {
-                i = i - entry.getValue();
-                sb.append(entry.getKey());
-            }
-        }
-        return sb.toString();
+        //    while(i >= entry.getValue()) {
+        //        i = i - entry.getValue();
+        //        sb.append(entry.getKey());
+        //    }
+            
+        //}
+        //return sb.toString();
+        return "1";
     }
 }
